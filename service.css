@@ -1,23 +1,20 @@
 h1 {
-    text-align: center;
-    font-family: "Nova Square";
-    font-size: 40px;
-  }
-  
-  p {
-    text-align: center;
-    font-family: "Nova Square";
-  }
+  text-align: center;
+  font-family: "Nova Square";
+  font-size: 40px;
+}
 
+p {
+  text-align: center;
+  font-family: "Nova Square";
+}
 
-  table.tableLinks {
-    width: 100%;
-    border: 0px;
-    padding: 5px;
-  }
-
-
+table.tableLinks {
+  width: 100%;
+  border: 0px;
+  padding: 5px;
+}
 
 #logo {
-    width: 125px;
-  }
+  width: 125px;
+}
