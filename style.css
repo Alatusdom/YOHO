@@ -14,23 +14,28 @@ body {
   color: white;
 }
 
-table {
-  width: 70%;
-}
-table,
-th,
-td {
-  border: 0px;
-  font-family: "Nova Square";
-  font-size: 40px;
-  text-align: center;
-}
-th,
-td {
-  padding: 2px;
-  width: 150px;
-  vertical-align: top;
-}
+table.tableInfo {
+    width: 100%;
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #000;
+  }
+  table.tableInfo th {
+    width: 200px;
+  }
+  table.tableInfo th,
+  td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #000;
+    font-family: "Nova Square";
+  }
+  table.tableInfo td {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
 
 .container {
   position: relative;
