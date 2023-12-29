@@ -28,7 +28,7 @@ td {
 th,
 td {
   padding: 2px;
-  width: 125px;
+  width: 150px;
   vertical-align: top;
 }
 
@@ -76,7 +76,7 @@ p {
   color: #000;
   text-align: center;
   font-family: "Oswald";
-  font-size: 40px;
+  font-size: 24px;
 }
 
 #logo {
