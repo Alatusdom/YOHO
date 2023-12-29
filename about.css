@@ -1,7 +1,7 @@
 /*Space so it doesn't look uncomfortable*/
 
 body {
-  background-color: #f7edf0;
+  background-color: white;
 }
 
 table.tableInfo {
@@ -18,13 +18,12 @@ td {
   border: 2px solid;
   border-collapse: collapse;
   border-color: #000;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Nova Square";
 }
 table.tableInfo td {
   padding: 5px;
   text-align: center;
   font-size: 14px;
-  color: #1c7c54;
 }
 
 a:link,
@@ -35,11 +34,7 @@ a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Gill Sans", sans-serif;
-}
-a:hover,
-a:active {
-  background-color: #73e2a7;
+  font-family: "Nova Square";
 }
 
 table.tableLinks {
