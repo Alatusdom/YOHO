@@ -57,35 +57,44 @@ p {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
+  background-color: antiquewhite;
 }
 
 .OTSa{
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
+  background-color: antiquewhite;
+
 }
 
 .ResTa{
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
+  background-color: antiquewhite;
+
 }
 
 .ComTa{
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
+  background-color: antiquewhite;
+
 }
 
 .MTa{
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
+  background-color: antiquewhite;
+
 }
 
 .colorBlock {
-  border: 5px outset red;
-  background-color: lightblue;
+  border: 0px;
+  background-color: lightsteelblue;
   text-align: center;
 }
 
