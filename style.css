@@ -78,8 +78,9 @@ p {
 }
 
 .colorBlock {
-  display:block;
-  color: aquamarine;
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
 }
 
 .buttons {
