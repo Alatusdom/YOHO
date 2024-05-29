@@ -43,6 +43,7 @@ p {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  font-family: "Nova Square";
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -55,8 +56,9 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  font-family: "Nova Square";
+  background-color: #5C7C84;
+  color: whitesmoke;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -65,12 +67,12 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #87A4AB;
 }
 
 /* Add a background color and some padding around the form */
 .formBlock {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #DBEBFA;
   padding: 20px;
 }
