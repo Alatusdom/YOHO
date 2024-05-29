@@ -42,7 +42,7 @@ body {
   align-items: center;
   padding: 10px;
   padding-left: 11px;
-  box-shadow: 0px 3px 2px -2px #191F24;
+  box-shadow: 0px 3px 2px -2px #191f24;
 }
 
 body,
@@ -55,24 +55,23 @@ html {
 a:link,
 a:visited {
   background-color: transparent;
-  color: #191F24;
+  color: #191f24;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-
 h3 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 30px;
-  color: #191F24;
+  color: #191f24;
 }
 
 .long {
   text-align: center;
   font-family: "Nova Square";
-  color: #191F24;
+  color: #191f24;
 }
 
 .center {
@@ -85,21 +84,21 @@ h3 {
 .SCa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #191F24;
+  border: 1px solid #191f24;
   background-color: #7ea0b7;
 }
 
 .OTSa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #191F24;
+  border: 1px solid #191f24;
   background-color: #7ea0b7;
 }
 
 .ResTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #191F24;
+  border: 1px solid #191f24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -107,7 +106,7 @@ h3 {
 .ComTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #191F24;
+  border: 1px solid #191f24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -115,7 +114,7 @@ h3 {
 .MTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #191F24;
+  border: 1px solid #191f24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -171,14 +170,13 @@ h3 {
   }
 }
 
-
 .bottom-bar {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #191F24;
-  color: #DBEBFA;
+  background-color: #191f24;
+  color: #dbebfa;
   padding: 10px;
   padding-bottom: 20px;
   text-align: center;
@@ -186,14 +184,14 @@ h3 {
 
 .homeI {
   position: relative;
-  text-align:center;
-  color: #191F24;
+  text-align: center;
+  color: #191f24;
   margin-top: 1.5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .centeredT {
-    font-size: 15px; /* Adjust this value as needed */
+    font-size: 1px; /* Adjust this value as needed */
   }
 
   .centeredB {
@@ -202,19 +200,323 @@ h3 {
 }
 
 .centeredT {
-  position:absolute;
+  position: absolute;
   top: 30%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
   font-style: bold;
 }
 
 .centeredB {
-  position:absolute;
+  position: absolute;
   top: 35%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
 }
 
+/* Popup container */
+.SCa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.SCa .servicePop {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.SCa .servicePop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.SCa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup container */
+.SCa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.OTSa .onePop {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.OTSa .onePop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.OTSa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup container */
+.ResTa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.ResTa .resPop {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.ResTa .resPop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.ResTa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup container */
+.ComTa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.ComTa .comPop {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.ComTa .comPop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.ComTa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup container */
+.MTa {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.MTa .mosPop {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.MTa .mosPop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.MTa .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
