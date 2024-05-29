@@ -1,7 +1,7 @@
 /*Space so it doesn't look uncomfortable*/
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 table.tableInfo {
@@ -29,7 +29,7 @@ table.tableInfo td {
 a:link,
 a:visited {
   background-color: transparent;
-  color: #000;
+  color: #3e1e19;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;

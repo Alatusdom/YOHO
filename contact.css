@@ -1,11 +1,11 @@
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 a:link,
 a:visited {
   background-color: transparent;
-  color: #000;
+  color: #3e1e19;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -22,6 +22,7 @@ table.tableLinks {
 #logo {
   width: 125px;
 }
+
 h1 {
   text-align: center;
   font-family: "Nova Square";
