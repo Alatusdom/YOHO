@@ -59,14 +59,14 @@ p {
 
 .SCa{
   text-decoration: none;
-  padding: 1rem;
+  padding: .5rem;
   border: 1px solid #3e1e19;
   background-color: #7EA0B7;
 }
 
 .OTSa{
   text-decoration: none;
-  padding: 1rem;
+  padding: .5rem;
   border: 1px solid #3e1e19;
   background-color: #7EA0B7;
 
@@ -74,7 +74,7 @@ p {
 
 .ResTa{
   text-decoration: none;
-  padding: 1rem;
+  padding: .5rem;
   border: 1px solid #3e1e19;
   background-color: #7EA0B7;
 
@@ -82,7 +82,7 @@ p {
 
 .ComTa{
   text-decoration: none;
-  padding: 1rem;
+  padding: .5rem;
   border: 1px solid #3e1e19;
   background-color: #7EA0B7;
 
@@ -90,10 +90,10 @@ p {
 
 .MTa{
   text-decoration: none;
-  padding: 1rem;
+  padding: .5rem;
   border: 1px solid #3e1e19;
   background-color: #7EA0B7;
-
+  margin-top: 5px;
 }
 
 .colorBlock {
