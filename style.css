@@ -85,21 +85,21 @@ h3 {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #191f24;
-  background-color: #7ea0b7;
+  background-color: #dbebfa;
 }
 
 .OTSa {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #191f24;
-  background-color: #7ea0b7;
+  background-color: #dbebfa;
 }
 
 .ResTa {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #191f24;
-  background-color: #7ea0b7;
+  background-color: #dbebfa;
   margin-top: 5px;
 }
 
@@ -107,7 +107,7 @@ h3 {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #191f24;
-  background-color: #7ea0b7;
+  background-color: #dbebfa;
   margin-top: 5px;
 }
 
@@ -115,20 +115,22 @@ h3 {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #191f24;
-  background-color: #7ea0b7;
+  background-color: #dbebfa;
   margin-top: 5px;
 }
 
 .colorBlock {
-  border: 0px;
+  border-bottom: 1px solid ;
+  border-top: 1px solid ;
+  border-color: #020A12;
   background-color: #dbebfa;
   text-align: center;
   padding: 10px;
-  margin: auto;
 }
 
 .buttons {
   text-align: center;
+  background-color: #dbebfa;
 }
 
 /* The side navigation menu */
@@ -229,8 +231,8 @@ h3 {
 .SCa .servicePop {
   visibility: hidden;
   width: 200px;
-  background-color: #555;
-  color: #fff;
+  background-color: #4B4444;
+  color: #ECEAEA;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -250,14 +252,14 @@ h3 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #4B4444 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .SCa .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 /* Add animation (fade in the popup) */
@@ -290,8 +292,8 @@ h3 {
 .OTSa .onePop {
   visibility: hidden;
   width: 200px;
-  background-color: #555;
-  color: #fff;
+  background-color: #4B4444;
+  color: #ECEAEA;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -311,14 +313,14 @@ h3 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #4B4444 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .OTSa .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 /* Add animation (fade in the popup) */
@@ -351,8 +353,8 @@ h3 {
 .ResTa .resPop {
   visibility: hidden;
   width: 200px;
-  background-color: #555;
-  color: #fff;
+  background-color: #4B4444;
+  color: #ECEAEA;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -372,14 +374,14 @@ h3 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #4B4444 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .ResTa .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 /* Add animation (fade in the popup) */
@@ -412,8 +414,8 @@ h3 {
 .ComTa .comPop {
   visibility: hidden;
   width: 200px;
-  background-color: #555;
-  color: #fff;
+  background-color: #4B4444;
+  color: #ECEAEA;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -433,14 +435,14 @@ h3 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #4B4444 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .ComTa .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 /* Add animation (fade in the popup) */
@@ -473,8 +475,8 @@ h3 {
 .MTa .mosPop {
   visibility: hidden;
   width: 200px;
-  background-color: #555;
-  color: #fff;
+  background-color: #4B4444;
+  color: #ECEAEA;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -494,14 +496,14 @@ h3 {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #4B4444 transparent transparent transparent;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .MTa .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
 /* Add animation (fade in the popup) */
