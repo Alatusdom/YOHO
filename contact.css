@@ -43,6 +43,13 @@ p {
 
 label{
   font-family: "Nova Square";
+  color: #3e1e19;
+}
+
+h2 {
+  font-family: "Nova Square";
+  color: #3e1e19;
+  text-align: center;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
