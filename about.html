@@ -9,72 +9,96 @@
       href="https://fonts.googleapis.com/css?family=Nova Square"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" href="bugs.png" />
+    <link rel="icon" type="image/png" href="bugss.png" />
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <table class="tableLinks">
-      <tr>
+    <div class="logoMenu">
+      <div onclick="openNav()">
+        <a href="#" class="nav">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </a>
+      </div>
+
+      <!--TESTING-->
+      <div id="mySidenav" class="sidenav" onmouseleave="closeNav()">
+        <a href="index.html">Homepage</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <!-- Use any element to open the sidenav -->
+      <!-- TESTING-->
+      <div class="logoContain">
+        <img id="logo" alt="YHPC Logo" src="bugs.png" />
+      </div>
+    </div>
+
+    <div id="introBlock" class="introBlock">
+      <h1>About Your Home Pest Control: Protecting What Matters Most</h1>
+      <p class="aboutP">
+        Your Home Pest Control was founded by CEO Gabriel Nobilis with a clear
+        mission: to protect families and homes from unwanted pests. As a
+        family-run company, we understand the importance of keeping your loved
+        ones safe and secure, which is why we are dedicated to providing
+        reliable and effective pest control services. <br />
+        <br />
+        Starting a business comes with its challenges, but our commitment to our
+        values has always remained steadfast. Through careful deliberation, we
+        realized that our name should reflect not only our goals but also our
+        core belief in family and home. <br />
+        <br />
+        At Your Home Pest Control, we're more than just a service provider –
+        we're your trusted partner in creating a pest-free environment for you
+        and your loved ones. From our home to yours, we are here to ensure the
+        safety and comfort of your family. <br />
+        <br />
+        With years of experience and a passion for what we do, we strive to
+        exceed your expectations with every service we provide. Let us take care
+        of your pest control needs, so you can focus on what matters most –
+        enjoying your home with peace of mind. <br />
+        <br />
+      </p>
+    </div>
+
+    <div class="gWText">
+      <table class="photoI">
         <th>
-          <img id="logo" alt="YHPC Logo" src="bugs.png" />
-        </th>
-        <th><a href="index.html">Homepage</a></th>
-        <th><a href="services.html">Services</a></th>
-        <th><a href="about.html">About</a></th>
-        <th><a href="contact.html">Contact Us</a></th>
-      </tr>
+      <img
+        id="GabrielPhoto"
+        alt="Picture of Gabriel"
+        src="https://thumbs.dreamstime.com/z/bald-man-thumbs-up-26364248.jpg"
+      />
+      <p2><br />Gabriel Nobilis<br />Owner/CEO</p2>
+    </th>
+
+    <th>
+      <img
+        id="CaPhoto"
+        alt="Picture of Gabriel"
+        src="https://thumbs.dreamstime.com/z/bald-man-thumbs-up-26364248.jpg"
+      />
+      <p2><br />Liam Nobilis<br />Treatment Specialist</p2>
+    </th>
+
+    <th>
+      <img
+        id="cPhoto"
+        alt="Picture of Cadence"
+        src="https://thumbs.dreamstime.com/z/bald-man-thumbs-up-26364248.jpg"
+      />
+      <p2><br />Cadence Peterson<br />Web Developer</p2>
+    </th>
     </table>
+    </div>
 
-    <table class="tableInfo">
-      <tr>
-        <th>Name</th>
-        <th>See Them!</th>
-        <th>Position</th>
-        <th>Services</th>
-        <th>How to Contact</th>
-      </tr>
+    <div class="bottom-bar">
+      <p>&copy YoHoPC 2024</p>
+    </div>
 
-      <tr>
-        <td>Gabriel Nobilis</td>
-        <td>
-          <img
-            id="GabrielPhoto"
-            alt="Picture of Gabriel"
-            src="https://thumbs.dreamstime.com/z/bald-man-thumbs-up-26364248.jpg"
-          />
-        </td>
-        <td>Owner/CEO</td>
-        <td>Any and all services provided by YOHO Pest Control</td>
-        <td>yourhomepestcontrol@gmail.com or 952-201-6203</td>
-      </tr>
-
-      <tr>
-        <td>Cadence Peterson</td>
-        <td>
-          <img
-            id="CadencePhoto"
-            alt="Picture of Cadence"
-            src="https://media.istockphoto.com/photos/blonde-woman-thumbs-up-in-front-of-blank-computer-monitor-picture-id467892826?k=20&m=467892826&s=170667a&w=0&h=dLc-gLo-3F2sTBGu1jaOcM-QEvJ1GHW17WNktHMf0ao="
-          />
-        </td>
-        <td>Website Developer</td>
-        <td>Website troubleshooting and design</td>
-        <td>cadencepeterson14@gmail.com</td>
-      </tr>
-
-      <tr>
-        <td>Liam Nobilis</td>
-        <td>
-          <img
-            id="LiamPhoto"
-            alt="Picture of Liam"
-            src="https://thumbs.dreamstime.com/z/bald-man-thumbs-up-26364248.jpg"
-          />
-        </td>
-        <td>Treatment Specialist</td>
-        <td>Mosquito and Home Services</td>
-        <td>612-518-8XXX</td>
-      </tr>
-    </table>
   </body>
 </html>

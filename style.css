@@ -2,26 +2,63 @@ body {
   background-color: whitesmoke;
 }
 
+.nav div {
+  height: 4px;
+  background-color: #46201a;
+  margin: 6px 0;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.nav {
+  width: 34px;
+  display: block;
+  margin: len 0 0 len;
+}
+
+.one {
+  width: 34px;
+}
+
+.two {
+  width: 19px;
+}
+
+.three {
+  width: 27px;
+}
+
+.nav:hover div {
+  width: 34px;
+}
+
+#logo {
+  height: 75px;
+}
+
+.logoMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 11px;
+  box-shadow: 0px 3px 2px -2px #3E1E19;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Nova Square";
+}
+
 a:link,
 a:visited {
   background-color: transparent;
   color: #3e1e19;
-  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Nova Square";
-}
-
-table.tableLinks {
-  max-width: 100%;
-  width: 100%;
-  border: 0px;
-  padding: 4px;
-}
-
-#logo {
-  width: 125px;
 }
 
 h1 {
@@ -58,52 +95,101 @@ p {
   width: 50%;
 }
 
-.SCa{
+.SCa {
   text-decoration: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #3e1e19;
-  background-color: #7EA0B7;
+  background-color: #7ea0b7;
 }
 
-.OTSa{
+.OTSa {
   text-decoration: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #3e1e19;
-  background-color: #7EA0B7;
+  background-color: #7ea0b7;
 }
 
-.ResTa{
+.ResTa {
   text-decoration: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #3e1e19;
-  background-color: #7EA0B7;
+  background-color: #7ea0b7;
   margin-top: 5px;
 }
 
-.ComTa{
+.ComTa {
   text-decoration: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #3e1e19;
-  background-color: #7EA0B7;
+  background-color: #7ea0b7;
   margin-top: 5px;
-
 }
 
-.MTa{
+.MTa {
   text-decoration: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #3e1e19;
-  background-color: #7EA0B7;
+  background-color: #7ea0b7;
   margin-top: 5px;
 }
 
 .colorBlock {
   border: 0px;
-  background-color: #DBEBFA;
+  background-color: #dbebfa;
   text-align: center;
   padding: 0px;
 }
 
 .buttons {
+  text-align: center;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #57777e; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #c9e1f8;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #191F24;
+  color: #DBEBFA;
+  padding: 10px;
   text-align: center;
 }

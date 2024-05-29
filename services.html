@@ -9,28 +9,34 @@
       href="https://fonts.googleapis.com/css?family=Nova Square"
       rel="stylesheet"
     />
-    <link
-    rel="icon"
-    type="image/png" 
-    href="bugs.png"/>
+    <link rel="icon" type="image/png" href="bugss.png" />
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <table class="tableLinks">
-      <tr>
-        <th>
-          <img
-            id="logo"
-            alt="YHPC Logo"
-            src="bugs.png"
-          />
-        </th>
-        <th><a href="index.html">Homepage</a></th>
-        <th><a href="services.html">Services</a></th>
-        <th><a href="about.html">About</a></th>
-        <th><a href="contact.html">Contact Us</a></th>
-      </tr>
-    </table>
+    <div class="logoMenu">
+      <div onclick="openNav()">
+        <a href="#" class="nav">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </a>
+      </div>
+
+      <!--TESTING-->
+      <div id="mySidenav" class="sidenav" onmouseleave="closeNav()">
+        <a href="index.html">Homepage</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <!-- Use any element to open the sidenav -->
+      <!-- TESTING-->
+      <div class="logoContain">
+        <img id="logo" alt="YHPC Logo" src="bugs.png" />
+      </div>
+    </div>
 
     <h1>Sorry!</h1>
     <img
@@ -48,5 +54,9 @@
       <br />
       Have a great day!
     </p>
+
+    <div class="bottom-bar">
+      <p>&copy YoHoPC 2024</p>
+    </div>
   </body>
 </html>

@@ -3,43 +3,58 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width = device-width, initial-scale = 1, minimum-scale=1" />
+    <meta
+      name="viewport"
+      content="width = device-width, initial-scale = 1, minimum-scale=1"
+    />
     <meta charset="UTF-8" />
     <link
       href="https://fonts.googleapis.com/css?family=Nova Square"
-      rel="stylesheet"/>
-    <link
-      rel="icon"
-      type="image/png" 
-      href="bugs.png"/>
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="bugss.png" />
+
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <table class="tableLinks">
-      <tr>
-        <th>
-          <img
-            id="logo"
-            alt="YHPC Logo"
-            src="bugs.png"/>
-        </th>
-        <th><a href="index.html">Homepage</a></th>
-        <th><a href="services.html">Services</a></th>
-        <th><a href="about.html">About</a></th>
-        <th><a href="contact.html">Contact Us</a></th>
-      </tr>
-    </table>
+    <div class="logoMenu">
+      <div onclick="openNav()">
+        <a href="#" class="nav">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </a>
+      </div>
+
+      <!--TESTING-->
+      <div id="mySidenav" class="sidenav" onmouseleave="closeNav()">
+        <a href="index.html">Homepage</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <!-- Use any element to open the sidenav -->
+      <!-- TESTING-->
+      <div class="logoContain">
+        <img id="logo" alt="YHPC Logo" src="bugs.png" />
+      </div>
+    </div>
+
     <h1>Sorry!</h1>
     <img
       id="construction"
       alt="construction stock"
       src="https://as2.ftcdn.net/v2/jpg/01/20/57/23/1000_F_120572350_xIXQ01UJpeZmQwDpAN1zpdP0uR5jjaGW.jpg"
-      class="center"/>
+      class="center"
+    />
     <p>
       This website is currently under construction and this page is not
       finished. Thank you for your interest in Your Home Pest Control. To learn
       more about the company, don't hesitate to call or text Gabriel at
-      952-201-6203. Otherwise, you can now submit an inquiry on our "Contact Us" page!
+      952-201-6203. Otherwise, you can now submit an inquiry on our "Contact Us"
+      page!
       <br />
       <br />
       Have a great day!
@@ -48,19 +63,28 @@
       <h2>
         This is an active construction zone, please ignore any odd appearances
       </h2>
-      <h3>Quick Links to Services</h3>
+      <h3>What we do, at a glance!</h3>
       <p class="buttons">
         <a class="SCa" href="https://yohopestcontrol.com/services.html"
-          >Service Consultation</a>
+          >Service Consultation</a
+        >
         <a class="OTSa" href="https://yohopestcontrol.com/services.html"
-          >One-Time Service</a>
+          >One-Time Service</a
+        >
         <a class="ResTa" href="https://yohopestcontrol.com/services.html"
-          >Residential Treatments</a>
+          >Residential Treatments</a
+        >
         <a class="ComTa" href="https://yohopestcontrol.com/services.html"
-          >Commercial Treatments</a>
+          >Commercial Treatments</a
+        >
         <a class="MTa" href="https://yohopestcontrol.com/services.html"
-          >Mosquito Treatments</a>
+          >Mosquito Treatments</a
+        >
       </p>
+    </div>
+
+    <div class="bottom-bar">
+      <p>&copy YoHoPC 2024</p>
     </div>
   </body>
 </html>
