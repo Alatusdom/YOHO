@@ -5,7 +5,7 @@ body {
 a:link,
 a:visited {
   background-color: transparent;
-  color: #333333;
+  color: #3e1e19;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -56,14 +56,14 @@ p {
 .SCa{
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid #333333;
+  border: 1px solid #3e1e19;
   background-color: antiquewhite;
 }
 
 .OTSa{
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid #333333;
+  border: 1px solid #3e1e19;
   background-color: antiquewhite;
 
 }
@@ -71,7 +71,7 @@ p {
 .ResTa{
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid #333333;
+  border: 1px solid #3e1e19;
   background-color: antiquewhite;
 
 }
@@ -79,7 +79,7 @@ p {
 .ComTa{
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid #333333;
+  border: 1px solid #3e1e19;
   background-color: antiquewhite;
 
 }
@@ -87,7 +87,7 @@ p {
 .MTa{
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid #333333;
+  border: 1px solid #3e1e19;
   background-color: antiquewhite;
 
 }
