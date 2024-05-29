@@ -33,38 +33,30 @@
         method="post"
         action="contact-form-process.php"
       >
-        <table>
-          <tr>
-            <td>Name:</td>
-            <td><input type="text" name="namee" placeholder="First, Last" /></td>
-          </tr>
-          <tr>
-            <td>Phone Number:</td>
-            <td>
-              <input type="text" name="phone" placeholder="(XXX)-XXX-XXXX" />
-            </td>
-          </tr>
-          <tr>
-            <td>Zip Code:</td>
-            <td><input type="text" name="zip" placeholder="55555" /></td>
-          </tr>
-          <tr>
-            <td>Concerns:</td>
-            <td>
-              <textarea
-              id = "inq"
-                name="inq"
-                placeholder="Please describe what issue(s) you have been seeing..."
-                style="height:200px">
-              </textarea>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input type="submit" value="Submit">
-            </td>
-          </tr>
-        </table>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="namee" placeholder="First, Last" />
+
+        <label for="phonen">Phone Number:</label>
+        <input
+          type="text"
+          id="phonen"
+          name="phone"
+          placeholder="(XXX)-XXX-XXXX"
+        />
+
+        <label for="zipc">Zip Code:</label>
+        <input type="text" id="zipc" name="zip" placeholder="55555" />
+
+        <label for="inq">Concerns:</label>
+        <textarea
+          id="inq"
+          name="inq"
+          placeholder="Please describe what issue(s) you have been seeing..."
+          style="height: 200px"
+        >
+        </textarea>
+
+        <input type="submit" value="Submit" />
       </form>
     </div>
   </body>
