@@ -67,12 +67,13 @@ if (isset($_POST['Email'])) {
     $email_message .= "Phone Number: " . clean_string($phone) . "\n";
     $email_message .= "Zip Code: " . clean_string($zip) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
+
+    // create email headers
+    $headers = 'From: ' . $email_to . "\r\n" .
+        'Reply-To: ' . $email_to . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+    @mail($email_to, $email_subject, $email_message, $headers);
+
+    echo "Thank you for reaching out to us! We will contact you within the next 1-2 business days. Have a great day!";
 }
 
-// create email headers
-$headers = 'From: ' . $email_to . "\r\n" .
-    'Reply-To: ' . $email_to . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
-?>
-Thank you for reaching out to us! We will contact you within the next 1-2 business days. Have a great day!
