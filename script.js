@@ -8,3 +8,28 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  function serviceUp() {
+    var popup = document.getElementById("serv");
+    popup.classList.toggle("show");
+  }
+
+  function oserviceUp() {
+    var popup = document.getElementById("oneT");
+    popup.classList.toggle("show");
+  }
+
+  function rserviceUp() {
+    var popup = document.getElementById("resT");
+    popup.classList.toggle("show");
+  }
+
+  function cserviceUp() {
+    var popup = document.getElementById("comT");
+    popup.classList.toggle("show");
+  }
+
+  function mserviceUp() {
+    var popup = document.getElementById("mosT");
+    popup.classList.toggle("show");
+  }
