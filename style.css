@@ -189,15 +189,7 @@ h3 {
   margin-top: 1.5px;
 }
 
-@media screen and (max-width: 400px) {
-  .centeredT {
-    font-size: 1px; /* Adjust this value as needed */
-  }
 
-  .centeredB {
-    font-size: 5px; /* Adjust this value as needed */
-  }
-}
 
 .centeredT {
   position: absolute;
@@ -214,6 +206,16 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .centeredT {
+    font-size: 1px; /* Adjust this value as needed */
+  }
+
+  .centeredB {
+    font-size: 5px; /* Adjust this value as needed */
+  }
 }
 
 /* Popup container */
