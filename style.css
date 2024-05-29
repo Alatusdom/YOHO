@@ -42,7 +42,7 @@ body {
   align-items: center;
   padding: 10px;
   padding-left: 11px;
-  box-shadow: 0px 3px 2px -2px #3E1E19;
+  box-shadow: 0px 3px 2px -2px #191F24;
 }
 
 body,
@@ -55,7 +55,7 @@ html {
 a:link,
 a:visited {
   background-color: transparent;
-  color: #3e1e19;
+  color: #191F24;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -65,27 +65,27 @@ h1 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 40px;
-  color: #3e1e19;
+  color: #191F24;
 }
 
 h2 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 20px;
-  color: #3e1e19;
+  color: #191F24;
 }
 
 h3 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 30px;
-  color: #3e1e19;
+  color: #191F24;
 }
 
-p {
+.long {
   text-align: center;
   font-family: "Nova Square";
-  color: #3e1e19;
+  color: #191F24;
 }
 
 .center {
@@ -98,21 +98,21 @@ p {
 .SCa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #3e1e19;
+  border: 1px solid #191F24;
   background-color: #7ea0b7;
 }
 
 .OTSa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #3e1e19;
+  border: 1px solid #191F24;
   background-color: #7ea0b7;
 }
 
 .ResTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #3e1e19;
+  border: 1px solid #191F24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -120,7 +120,7 @@ p {
 .ComTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #3e1e19;
+  border: 1px solid #191F24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -128,7 +128,7 @@ p {
 .MTa {
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px solid #3e1e19;
+  border: 1px solid #191F24;
   background-color: #7ea0b7;
   margin-top: 5px;
 }
@@ -137,7 +137,8 @@ p {
   border: 0px;
   background-color: #dbebfa;
   text-align: center;
-  padding: 0px;
+  padding: 10px;
+  margin: auto;
 }
 
 .buttons {
@@ -191,5 +192,29 @@ p {
   background-color: #191F24;
   color: #DBEBFA;
   padding: 10px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+.homeI {
+  position: relative;
+  text-align:center;
+  color: #191F24;
+  margin-top: 1.5px;
+}
+
+.centeredT {
+  position:absolute;
+  top: 30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-style: bold;
+}
+
+.centeredB {
+  position:absolute;
+  top: 35%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
