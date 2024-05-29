@@ -27,23 +27,27 @@ h1 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 40px;
+  color: #3e1e19;
 }
 
 h2 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 40px;
+  color: #3e1e19;
 }
 
 h3 {
   text-align: center;
   font-family: "Nova Square";
   font-size: 30px;
+  color: #3e1e19;
 }
 
 p {
   text-align: center;
   font-family: "Nova Square";
+  color: #3e1e19;
 }
 
 .center {
