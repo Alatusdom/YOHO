@@ -6,7 +6,7 @@ a:link,
 a:visited {
   background-color: transparent;
   color: #3e1e19;
-  padding: 10px 15px;
+  padding: 62.5% 93.75%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -15,32 +15,32 @@ a:visited {
 
 table.tableLinks {
   width: 100%;
-  border: 0px;
-  padding: 4px;
+  border: 0%;
+  padding: 25%;
 }
 
 #logo {
-  width: 125px;
+  width: 781.25%;
 }
 
 h1 {
   text-align: center;
   font-family: "Nova Square";
-  font-size: 40px;
+  font-size: 250%;
   color: #3e1e19;
 }
 
 h2 {
   text-align: center;
   font-family: "Nova Square";
-  font-size: 20px;
+  font-size: 125%;
   color: #3e1e19;
 }
 
 h3 {
   text-align: center;
   font-family: "Nova Square";
-  font-size: 30px;
+  font-size: 187.5%;
   color: #3e1e19;
 }
 
@@ -60,14 +60,14 @@ p {
 .SCa{
   text-decoration: none;
   padding: .5rem;
-  border: 1px solid #3e1e19;
+  border: 6.25% solid #3e1e19;
   background-color: #7EA0B7;
 }
 
 .OTSa{
   text-decoration: none;
   padding: .5rem;
-  border: 1px solid #3e1e19;
+  border: 6.25% solid #3e1e19;
   background-color: #7EA0B7;
 
 }
@@ -75,27 +75,27 @@ p {
 .ResTa{
   text-decoration: none;
   padding: .5rem;
-  border: 1px solid #3e1e19;
+  border: 6.25% solid #3e1e19;
   background-color: #7EA0B7;
-  margin-top: 5px;
+  margin-top: 31.25%;
 
 }
 
 .ComTa{
   text-decoration: none;
   padding: .5rem;
-  border: 1px solid #3e1e19;
+  border: 6.25% solid #3e1e19;
   background-color: #7EA0B7;
-  margin-top: 5px;
+  margin-top: 31.25%;
 
 }
 
 .MTa{
   text-decoration: none;
   padding: .5rem;
-  border: 1px solid #3e1e19;
+  border: 6.25% solid #3e1e19;
   background-color: #7EA0B7;
-  margin-top: 5px;
+  margin-top: 31.25%;
 }
 
 .colorBlock {
