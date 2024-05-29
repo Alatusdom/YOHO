@@ -212,7 +212,7 @@ h3 {
 
 @media screen and (max-width: 400px) {
   .centeredT {
-    font-size: 17px; /* Adjust this value as needed */
+    font-size: 14px; /* Adjust this value as needed */
   }
 
   .centeredB {
